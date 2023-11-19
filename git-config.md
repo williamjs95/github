@@ -6,5 +6,14 @@ PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git config --globa
 
 PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git config --list
 
+PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git add .
 
+PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git commit -m "created index.html"
 
+PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git log
+
+PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git log --oneline
+
+PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git log -n 3
+
+PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git status
