@@ -1,26 +1,44 @@
-PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git init      
+// iniciar git
+git init      
 
-PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git config --global user.name "williamjs95"
+// configurar nome
+git config --global user.name "williamjs95"
 
-PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git config --global user.email "williamj.silva@live.com"
+configurar email
+git config --global user.email "williamj.silva@live.com"
 
-PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git config --list
+listar metadados
+git config --list
 
-PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git add .
+adicinar modificação ao working diretory (todos os arquivos)
+git add .
 
-PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git commit -m "created index.html"
+comitar modificações na staged area
+git commit -m "created index.html"
 
-PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git log
+log de commit
+git log
 
-PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git log --oneline
+log de commit (resumo)
+git log --oneline
 
-PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git log -n 3
+mostrar as 3 últimas modificações 
+git log -n 3
 
-PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git status
+mostrar aquivos modificados 
+git status
 
-PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git diff
+mostrar linhas modificadas
+git diff
 
-PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git restore --index.html
+restaurar modificação (working directory)
+git restore --index.html
 
-PS C:\Users\willi\OneDrive\Documentos\Web Development\github>  git restore --staged index.html
+restaurar modificação (staged area)
+git restore --staged index.html
+
+corrigir a descrição do último commit
+git commit --amend -m "change title page index.html"
+
+
 
