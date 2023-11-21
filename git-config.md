@@ -34,11 +34,12 @@ git diff
 restaurar modificação (working directory)
 git restore --index.html
 
-restaurar modificação (staged area)
+restaurar modificação (staged area - volta para working diretory)
 git restore --staged index.html
 
 corrigir a descrição do último commit
 git commit --amend -m "change title page index.html"
 
-
+desfaz o último commit (voltar para working directory)
+git reset --soft HEAD~1
 
