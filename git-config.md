@@ -17,3 +17,10 @@ PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git log --oneline
 PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git log -n 3
 
 PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git status
+
+PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git diff
+
+PS C:\Users\willi\OneDrive\Documentos\Web Development\github> git restore --index.html
+
+PS C:\Users\willi\OneDrive\Documentos\Web Development\github>  git restore --staged index.html
+
