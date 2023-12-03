@@ -53,4 +53,4 @@ clonar repositório
 git clone git@github.com:williamjs95/github.git
 
 buscar atualizações do repositório
-git pull
+git pull git
