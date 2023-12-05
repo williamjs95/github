@@ -54,3 +54,23 @@ git clone git@github.com:williamjs95/github.git
 
 buscar atualizações do repositório
 git pull git
+
+criar nova branch
+git checkout -b feat/nome-da-branch
+
+>> PULL REQUEST
+
+Para criar uma branch - no terminal vai digitar 
+git checkout -b NOMEBRANCH (exemplo: AE-403/feat_menubar)
+
+para adicionar as mudanças realizadas a sua branch 
+git add .
+
+para adicionar uma mensagem ao commit 
+git commit -m "Mensagens do commit/" (exemplo: "AE-403/feat: mensagem do commit")
+
+e para subir o commit 
+git push origin NOMEDABRANCH (exemplo: AE-403/feat_menubar)
+
+para o commit segue o mesmo padrão 
+git commit -m "AE-403/feat: mensagem do commit vem logo em seguida iniciando com o numero do card"
