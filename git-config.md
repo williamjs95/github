@@ -53,7 +53,7 @@ clonar repositório
 git clone git@github.com:williamjs95/github.git
 
 buscar atualizações do repositório
-git pull git
+git pull
 
 criar nova branch
 git checkout -b feat/nome-da-branch
