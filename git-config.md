@@ -53,7 +53,8 @@ clonar repositório
 git clone git@github.com:williamjs95/github.git
 
 buscar atualizações do repositório
-git pull
+git pull origin branch
+
 
 criar nova branch
 git checkout -b feat/nome-da-branch
@@ -73,9 +74,6 @@ git commit -m "Mensagens do commit/" (exemplo: "AE-403/feat: mensagem do commit"
 
 e para subir o commit 
 git push origin NOMEDABRANCH (exemplo: AE-403/feat_menubar)
-
-para o commit segue o mesmo padrão 
-git commit -m "AE-403/feat: mensagem do commit vem logo em seguida iniciando com o numero do card"
 
 
 
